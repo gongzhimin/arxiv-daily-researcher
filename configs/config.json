@@ -3,8 +3,8 @@
   // Search Configuration
   // ==================================================
   "search_settings": {
-    "search_days": 7,
-    "max_results": 100,
+    "search_days": 60,
+    "max_results": 80,
     "max_results_per_source": {}
   },
 
@@ -25,7 +25,7 @@
   // ==================================================
   "target_domains": {
     "domains": [
-      "quant-ph"
+      "cs.AI", "cs.CR", "cs.LG"
     ]
   },
 
@@ -35,7 +35,15 @@
   "keywords": {
     "primary_keywords": {
       "weight": 1.0,
-      "keywords": []
+      "keywords": [
+        "safety alignment guidelines",    // 安全对齐指南（核心词）
+        "SFT safety protocols",            // 有监督微调安全协议
+        "safety data curation standards", // 安全数据整理标准
+        "red-teaming for fine-tuning",    // 针对微调的红队测试
+        "safety refusal training",        // 拒绝回答训练策略
+        "jailbreak defense benchmarks",   // 越狱防御基准（用于验证指南有效性）
+        "safety-critical fine-tuning"     // 安全关键任务的微调
+      ]
     },
     "enable_reference_extraction": true,
     "reference_keywords_config": {
@@ -56,7 +64,7 @@
         }
       }
     },
-    "research_context": ""
+    "research_context": "我关注生成式大模型在微调阶段的安全性对齐指南（Safety Alignment Guidelines）、如何构建安全微调数据集、企业级模型部署前的安全合规微调流程（SFT protocols）、以及如何通过微调防止模型被诱导产生有害内容。我希望了解最新的行业标准和学术界提出的最佳实践。"
   },
 
   // ==================================================
@@ -72,7 +80,7 @@
       "bonus_points": 5.0
     },
     "passing_score_formula": {
-      "base_score": 5.0,
+      "base_score": 4.0,
       "weight_coefficient": 3.0
     },
     "include_all_in_report": true
