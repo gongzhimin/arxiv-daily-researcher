@@ -3,7 +3,7 @@
   // Search Configuration
   // ==================================================
   "search_settings": {
-    "search_days": 7,
+    "search_days": 60,
     "max_results": 50,
     "max_results_per_source": {
       "arxiv": 50
