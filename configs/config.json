@@ -4,10 +4,9 @@
   // ==================================================
   "search_settings": {
     "search_days": 7,
-    "max_results": 40,
+    "max_results": 50,
     "max_results_per_source": {
-      "arxiv": 30,
-      "openalex": 10
+      "arxiv": 50
     }
   },
 
@@ -16,8 +15,7 @@
   // ==================================================
   "data_sources": {
     "enabled": [
-      "arxiv",
-      "prl"
+      "arxiv"
     ],
     "journals": [],
     "reports_by_source": true
