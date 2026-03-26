@@ -137,10 +137,10 @@
     "top_n": 5,
     "channels": {
       "email": {
-        "enabled": false
+        "enabled": true
       },
       "wechat_work": {
-        "enabled": true
+        "enabled": false
       },
       "dingtalk": {
         "enabled": false
