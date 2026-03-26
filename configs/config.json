@@ -80,8 +80,8 @@
       "bonus_points": 5.0
     },
     "passing_score_formula": {
-      "base_score": 7.0,
-      "weight_coefficient": 3.5
+      "base_score": 4.0,
+      "weight_coefficient": 3.0
     },
     "include_all_in_report": false
   },
