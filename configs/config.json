@@ -3,7 +3,7 @@
   // Search Configuration
   // ==================================================
   "search_settings": {
-    "search_days": 60,
+    "search_days": 90,
     "max_results": 50,
     "max_results_per_source": {
       "arxiv": 50
@@ -39,9 +39,7 @@
       "keywords": [
         "LLM safety fine-tuning guidelines", // 组合词：将 safety 和 fine-tuning 绑定
         "alignment data protocols",          // 锁定“对齐数据协议”
-        "SFT safety best practices",         // 锁定“最佳实践”
         "instruction tuning safety alignment",
-        "red-teaming guidelines for LLMs",   // 针对红队的指南
         "safety guardrails fine-tuning"      // 锁定“安全护栏微调”
       ]
     },
