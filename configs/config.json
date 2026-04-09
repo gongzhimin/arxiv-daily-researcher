@@ -3,10 +3,10 @@
   // Search Configuration
   // ==================================================
   "search_settings": {
-    "search_days": 90,
-    "max_results": 50,
+    "search_days": 7,
+    "max_results": 20,
     "max_results_per_source": {
-      "arxiv": 50
+      "arxiv": 20
     }
   },
 
